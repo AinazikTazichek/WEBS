@@ -1,0 +1,231 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    
+}
+
+.sect h1, .subSect h1{
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+}
+.sect p, .subSect p{
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+
+}
+.sect,.subSect{
+    color: white;    
+    padding: 80px 20px 0 20px;
+    /* padding-top: 80px; */
+}
+.navbar{
+    margin-left: 50%;
+    /* float: right; */
+    /* text-align: center; */
+    width: 50%;
+    /* display: ; */
+}
+.navbar a{
+    padding: 5px;
+    /* margin-left: 80%; */
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: right;
+    font-weight: bold;
+    /* text-align: right; */
+}
+nav a:hover{
+    text-shadow: 2px 2px white;
+    padding: 0;
+    margin: 0;
+    /* width: 0; */
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 100px;
+    height: 135px;
+}
+
+#home{
+    height: 700px;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gallery{
+    min-height: 700px;
+    background-image: url("../img/gettyimages-643632382-1024x1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sponsors{
+    /*height: 800px;*/
+    background-image: url("../img/team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.subSect{
+    /*background-color: rgb(7, 21, 68);*/
+    background-color: #121116;
+    height: 450px;
+    width: 100%;
+    color: white;
+}
+#social{
+    background-image: url("../img/it-background-5.jpg");
+    /*background-color: #491217);*/
+    display: flex;
+    justify-content:left;
+    padding: 23px;
+    height: 350px;
+}
+#team{
+    height: 100%;
+}
+.intro{
+    display: flex;
+}
+.intro h1{
+    padding: 4%;
+}
+.spons img{
+    height: 35%;
+    width: 35%;
+}
+.name{
+    margin: 50px;
+}
+.spons{
+    border: 1px solid white;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    transition: 1s;
+}
+.spons:hover{
+    /*width: 100;*/
+    height: 120%;
+    background-color: rgba(11,99,98);
+    border: 2px solid white;
+}
+.des{
+    padding-left: 20px;
+}
+.pic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic img{
+    width: 300px;
+    height: 400px;
+    margin: 20px 0 20px 0;
+
+}
+.subSect{
+    background-color: #121116 ;
+}
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+    }
+    .home h1{
+        width: 100%;
+    }
+    .sect p, .subSect p{
+        font-size: 16px;
+    }
+    #logo{
+        width: 60px;
+        height: 80px;
+    }
+    .navbar a{
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        width: 32%;
+    }
+
+    .sect h1, .subSect h1{
+        margin-bottom: 40px;
+        font-weight: bolder;
+        text-shadow: 2px 2px black;
+        font-size: 20px;
+    }
+    .test{
+        width: 100%;
+    }
+
+
+
+    .name{
+        margin: 10px;
+    }
+    .spons{
+        border: 1px solid white;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        transition: 1s;
+    }
+    .spons h3 , .spons p{
+        font-size: 10px;
+    }
+    .spons:hover{
+        transform: skew(180deg,180deg);
+    }
+    .pic img{
+        width: 100px;
+        height: 140px;
+        margin: 10px 0 10px 0;
+    
+    }
+    .name{
+        margin: 5px;
+        width: 50%;
+    }
+    .name h3{
+        font-size: 14px;
+    }
+    .icon img{
+        padding: 0;
+        margin: 0;
+        width: 25px;
+        height: 25px;
+    }
+    #social{
+        padding: 10px;
+    }
+    #social h1{
+        padding: 0;
+        margin:  0 0 20px 0;
+    }
+}
+.soc{
+    width: 100%;
+    float: left;
+}
+.spon{
+    float: left;
+    width: 100%;
+}
+.spon-pic1{
+    display: inline-block;
+    position: relative;
+    margin-left: 15%;
+}
